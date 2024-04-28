@@ -87,3 +87,5 @@ proxy:
   https_proxy: ""
   no_proxy: ""
 ```
+
+#### _Note: Be sure to check Daemon Set and PersistentVolumeClaims. I had encountered errors on them._
