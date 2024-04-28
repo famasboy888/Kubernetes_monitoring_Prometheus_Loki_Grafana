@@ -144,3 +144,20 @@ NAME                                 READY   AGE
 statefulset.apps/loki                1/1     63m
 statefulset.apps/loki-alertmanager   1/1     63m
 ```
+
+Access Grafana Dashboard by exposing grafana service,
+<p align="left">
+  <img width="80%" height="80%" src="https://github.com/famasboy888/Kubernetes_monitoring_Prometheus_Loki_Grafana/assets/23441168/5e2e66d1-0318-46bf-861b-cc8763df03e8">
+</p>
+
+Confirm connections from Loki + Promptail
+<p align="left">
+  <img width="80%" height="80%" src="https://github.com/famasboy888/Kubernetes_monitoring_Prometheus_Loki_Grafana/assets/23441168/2b236333-c479-44b6-8999-ef47fc671d10">
+</p>
+
+Confirm connections from Prometheus
+<p align="left">
+  <img width="80%" height="80%" src="https://github.com/famasboy888/Kubernetes_monitoring_Prometheus_Loki_Grafana/assets/23441168/b8348952-ccf5-4210-a96f-3b5bcaa566be">
+</p>
+
+
