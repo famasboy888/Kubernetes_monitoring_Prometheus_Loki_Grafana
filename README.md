@@ -3,3 +3,16 @@
 <div align="center">
    <img src="https://github.com/famasboy888/Kubernetes_monitoring_Prometheus_Loki_Grafana/assets/23441168/f60867c4-514c-40c7-aa95-8021521dd46c" title="Prometheus" alt="Prometheus" width="50%" height="50%"/>
 </div>
+
+
+### Create a namespace
+
+```bash
+kubectl create ns loki-stack
+```
+
+If we run into error like: Deployment violates PodSecurity
+
+```bash
+kubectl label ns loki-stack pod-security.kubernetes.io/enforce=privileged
+```
