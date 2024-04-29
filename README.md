@@ -1,7 +1,7 @@
 ## Kubernetes Monitoring using Prometheus + Loki + Grafana (Part 1)
 
 <div align="center">
-   <img src="https://github.com/famasboy888/Kubernetes_monitoring_Prometheus_Loki_Grafana_Part_1/assets/23441168/afc55146-c38a-48e5-aefa-a8c719e69f9e" title="Prometheus" alt="Prometheus" width="50%" height="50%"/>
+   <img src="https://github.com/famasboy888/Kubernetes_monitoring_Prometheus_Loki_Grafana_Part_1/assets/23441168/afc55146-c38a-48e5-aefa-a8c719e69f9e" title="Prometheus" alt="Prometheus" width="100%" height="100%"/>
 </div>
 
 ### 1) Create a namespace
